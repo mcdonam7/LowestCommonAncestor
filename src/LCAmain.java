@@ -1,7 +1,7 @@
 //Mary McDonald
 
 //15316382  
-//Lowest Common Ancestor - s.e
+//Lowest Common Ancestor - s.engineering 
 import java.util.ArrayList; 
 import java.util.List;
 
