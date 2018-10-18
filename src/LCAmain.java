@@ -1,18 +1,20 @@
 //Mary McDonald
 
 //15316382  
-//Lowest Common Ancestor - s.engineering 
-import java.util.ArrayList; 
-import java.util.List;
+//Lowest Common Ancestor - s.engineering //
+public class LCAmain<Key extends Comparable<Key>, Value> {
+    private Node root;
 
+    private class Node {
+        private Node left, right;   //null if empty
 
-public class LCAmain {
-	
-	
-	 public static void main(String[] args) 
-	    { 
-		 
-		 
-	    }
-	    }
+        private Key key;       
+        private Value value;   
 
+        private Node(Key key, Value value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+
+}
